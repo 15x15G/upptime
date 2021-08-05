@@ -37,7 +37,6 @@ workflowSchedule:
 
 i18n:
   activeIncidents: 活跃事件
-  allSystemsOperational: 所有服务运行正常
   incidentReport: "事件 #$NUMBER 报告 →"
   activeIncidentSummary: 于 $DATE 开始，已有 $POSTS 次状态更新
   incidentTitle: 事件 $NUMBER 详情
@@ -59,9 +58,9 @@ i18n:
   averageResponseTimeTitle: 平均响应
   sevelDayResponseTime: 七日平均响应
   responseTimeMs: 响应时间 (ms)
-  up: 在线
-  down: 离线
-  degraded: 低性能
+  up: "🟩 在线"
+  degraded: "🟨 低性能"
+  down: "🟥 离线"
   ms: ms
   loading: 载入中
   navGitHub: GitHub
@@ -92,6 +91,7 @@ i18n:
   durationMin: $DURATION minutes
   incidentCompleted: Completed
   incidentScheduled: Scheduled
+  allSystemsOperational: "🟩 全部在线"
   degradedPerformance: "🟨 低性能"
   completeOutage: "🟥 全部离线"
   partialOutage: "🟧 部分离线"
