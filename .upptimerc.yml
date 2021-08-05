@@ -3,14 +3,12 @@ owner: 15x15G # Your GitHub organization or username, where this repository live
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
   - name: ffcafe
     url: https://ffcafe.org
+    icon: https://ffcafe.org/images/logos/334.png
   - name: ffcafe/PluginList
     url: https://cafemenu.lv5.one/ffcafe/ping
+    icon: https://ffcafe.org/images/logos/334.png
 
   # - name: Test Broken Site
   #   url: https://thissitedoesnotexist.koj.co
@@ -20,17 +18,80 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+  logoUrl: /logo-192.png
+  favicon: /logo-192.png
   name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "[**Upptime**](https://upptime.js.org/docs) 是开源的网站状态监视服务，由 GitHub 提供全部支持。"
+  introMessage: ""
   navbar:
     - title: Status
-      href: /
+      href: /upptime
     - title: GitHub
       href: https://github.com/15x15G/upptime
-
+  robotsText: "User-agent: * \n Disallow: /"
+  
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 workflowSchedule:
-  uptime: "0 */1 * * *"
+  uptime: "0 * * * *"
+
+i18n:
+  activeIncidents: 活跃事件
+  allSystemsOperational: 所有服务运行正常
+  incidentReport: "事件 #$NUMBER 报告 →"
+  activeIncidentSummary: 于 $DATE 开始，已有 $POSTS 次状态更新
+  incidentTitle: 事件 $NUMBER 详情
+  incidentDetails: 事件详情
+  incidentFixed: 已恢复
+  incidentOngoing: 持续中
+  incidentOpenedAt: 开始于
+  incidentClosedAt: 结束于
+  incidentSubscribe: 订阅更新
+  incidentViewOnGitHub: 在 GitHub 上查看
+  incidentCommentSummary: 由 $AUTHOR 于 $DATE 发布
+  incidentBack: ← 返回列表
+  pastIncidents: 历史事件
+  pastIncidentsResolved: 在 $MINUTES 分钟内经过 $POSTS 次更新恢复
+  liveStatus: 实时状态
+  overallUptime: "可用性: $UPTIME"
+  overallUptimeTitle: 可用性
+  averageResponseTime: "平均响应时间: $TIMEms"
+  averageResponseTimeTitle: 平均响应
+  sevelDayResponseTime: 七日平均响应
+  responseTimeMs: 响应时间 (ms)
+  up: 在线
+  down: 离线
+  degraded: 低性能
+  ms: ms
+  loading: 载入中
+  navGitHub: GitHub
+  footer: 本页面已 [开源]($REPO), 由 [Upptime](https://upptime.js.org) 出品
+  rateLimitExceededTitle: 达到请求数上限
+  rateLimitExceededIntro: 您已达到本小时的请求数上限，因此您需要等待一段时间才能再次访问。您也可以添加一个 GitHub 个人访问令牌(Personal Access Token)来继续使用本页面。
+  rateLimitExceededWhatDoesErrorMean: 这个错误意味着什么？
+  rateLimitExceededErrorMeaning: 本网站使用 GitHub API 来获得网站实时状态。GitHub 一般允许每个 IP 地址每小时 60 个请求，您已达到该上限。
+  rateLimitExceededErrorHowCanFix: 我该如何解决？
+  rateLimitExceededErrorFix: 一个小时后，您的 IP 地址限制将自动恢复。 或者您可以添加您的 GitHub 个人访问令牌，这将允许您每小时额外发出 5,000 个请求。
+  rateLimitExceededGeneratePAT: 了解如何生成个人访问令牌
+  rateLimitExceededHasSet: 您已设置个人访问令牌。
+  rateLimitExceededRemoveToken: 移除令牌
+  rateLimitExceededGitHubPAT: GitHub 个人访问令牌
+  rateLimitExceededCopyPastePAT: 复制并粘贴您的令牌
+  rateLimitExceededSaveToken: 保存令牌
+  errorTitle: 发生错误
+  errorIntro: 尝试获取最新状态时出错。
+  errorText: 请稍后再试。 
+  errorHome: 返回主页
+  pastScheduledMaintenance: 过去的定期维护
+  scheduledMaintenance: 定期维护
+  scheduledMaintenanceSummaryStarted: Started at $DATE for $DURATION minutes
+  scheduledMaintenanceSummaryStarts: Starts at $DATE for $DURATION minutes
+  startedAt: Started at
+  startsAt: Starts at
+  duration: Duration
+  durationMin: $DURATION minutes
+  incidentCompleted: Completed
+  incidentScheduled: Scheduled
+  degradedPerformance: "🟨 低性能"
+  completeOutage: "🟥 全部离线"
+  partialOutage: "🟧 部分离线"
