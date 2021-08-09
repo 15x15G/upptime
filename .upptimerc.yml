@@ -6,8 +6,8 @@ sites:
   - name: ffcafe
     url: https://ffcafe.org
     icon: https://ffcafe.org/images/logos/334.png
-  - name: ffcafe/PluginList
-    url: https://cafemenu.lv5.one/ffcafe/ping
+  - name: cafeapi
+    url: https://cafemenu.lv5.one
     icon: https://ffcafe.org/images/logos/334.png
 
   # - name: Test Broken Site
@@ -33,7 +33,7 @@ status-website:
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
 workflowSchedule:
-  uptime: "0 * * * *"
+  uptime: "*/15 * * * *"
 
 i18n:
   activeIncidents: 活跃事件
