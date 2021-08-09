@@ -5,38 +5,36 @@
     "icon": "https://ffcafe.org/images/logos/334.png",
     "slug": "ffcafe",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.09%",
+    "uptimeDay": "96.20%",
+    "uptimeWeek": "99.09%",
+    "uptimeMonth": "99.09%",
+    "uptimeYear": "99.09%",
     "time": 747,
     "timeDay": 866,
     "timeWeek": 747,
     "timeMonth": 747,
     "timeYear": 747,
     "dailyMinutesDown": {
-      "2021-08-09": 0
+      "2021-08-09": 55
     }
   },
   {
-    "name": "ffcafe/PluginList",
-    "url": "https://cafemenu.lv5.one/ffcafe/ping",
+    "name": "cafeapi",
+    "url": "https://cafemenu.lv5.one",
     "icon": "https://ffcafe.org/images/logos/334.png",
-    "slug": "ffcafe-plugin-list",
+    "slug": "cafeapi",
     "status": "up",
-    "uptime": "95.80%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "95.80%",
-    "uptimeMonth": "95.80%",
-    "uptimeYear": "95.80%",
-    "time": 319,
-    "timeDay": 378,
-    "timeWeek": 319,
-    "timeMonth": 319,
-    "timeYear": 319,
-    "dailyMinutesDown": {
-      "2021-08-05": 251
-    }
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 234,
+    "timeDay": 234,
+    "timeWeek": 234,
+    "timeMonth": 234,
+    "timeYear": 234,
+    "dailyMinutesDown": {}
   }
 ]
