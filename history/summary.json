@@ -42,19 +42,19 @@
     "url": "https://universalis.app/",
     "icon": "https://favicons.githubusercontent.com/universalis.app",
     "slug": "universalis",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 145,
-    "timeDay": 145,
-    "timeWeek": 145,
-    "timeMonth": 145,
-    "timeYear": 145,
+    "status": "up",
+    "uptime": "99.04%",
+    "uptimeDay": "99.04%",
+    "uptimeWeek": "99.04%",
+    "uptimeMonth": "99.04%",
+    "uptimeYear": "99.04%",
+    "time": 245,
+    "timeDay": 245,
+    "timeWeek": 245,
+    "timeMonth": 245,
+    "timeYear": 245,
     "dailyMinutesDown": {
-      "2021-08-13": 0
+      "2021-08-13": 9
     }
   }
 ]
