@@ -9,6 +9,9 @@ sites:
   - name: cafeapi
     url: https://cafemenu.lv5.one
     icon: https://ffcafe.org/images/logos/334.png
+  - name: universalis
+    url: https://universalis.app/
+
 
   # - name: Test Broken Site
   #   url: https://thissitedoesnotexist.koj.co
