@@ -5,11 +5,11 @@
     "icon": "https://ffcafe.org/images/logos/334.png",
     "slug": "ffcafe",
     "status": "up",
-    "uptime": "99.33%",
+    "uptime": "99.38%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "99.23%",
-    "uptimeMonth": "99.33%",
-    "uptimeYear": "99.33%",
+    "uptimeMonth": "99.38%",
+    "uptimeYear": "99.38%",
     "time": 708,
     "timeDay": 698,
     "timeWeek": 700,
@@ -42,17 +42,19 @@
     "url": "https://universalis.app/",
     "icon": "https://favicons.githubusercontent.com/universalis.app",
     "slug": "universalis",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.99%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 145,
     "timeDay": 145,
     "timeWeek": 145,
     "timeMonth": 145,
     "timeYear": 145,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-08-13": 0
+    }
   }
 ]
