@@ -27,12 +27,12 @@ status-website:
   introTitle: "[**Upptime**](https://upptime.js.org/docs) 是开源的网站状态监视服务，由 GitHub 提供全部支持。"
   introMessage: ""
   navbar:
-    - title: Status
-      href: /upptime
-    - title: GitHub
-      href: https://github.com/15x15G/upptime
     - title: Home
       href: /
+    - title: GitHub
+      href: https://github.com/15x15G/upptime
+    - title: Status
+      href: /upptime  
   robotsText: "User-agent: * \n Disallow: /"
   
 # Upptime also supports notifications, assigning issues, and more
