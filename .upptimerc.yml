@@ -21,14 +21,14 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   baseUrl: /upptime
-  logoUrl: /logo-192.png
-  favicon: /logo-192.png
+  logoUrl: /upptime/logo-192.png
+  favicon: /upptime/logo-192.png
   name: Upptime
-  introTitle: "[**Upptime**](https://upptime.js.org/docs) 是开源的网站状态监视服务，由 GitHub 提供全部支持。"
-  introMessage: ""
+  introTitle: "[**Upptime**](https://upptime.js.org/docs) ，一个位于 GitHub 上的开源网站状态监视服务。"
+  introMessage: "声明：本站所监控的网站并非本人所有，所监控的网站出错时请联系运营方。"
   navbar:
     - title: Home
-      href: /
+      href: https://15x15g.github.io
     - title: GitHub
       href: https://github.com/15x15G/upptime
     - title: Status
@@ -96,7 +96,7 @@ i18n:
   durationMin: $DURATION minutes
   incidentCompleted: Completed
   incidentScheduled: Scheduled
-  allSystemsOperational: "🟩 全部在线"
-  degradedPerformance: "🟨 低性能"
-  completeOutage: "🟥 全部离线"
-  partialOutage: "🟧 部分离线"
+  allSystemsOperational: "全部在线 🟩"
+  degradedPerformance: "低性能 🟨"
+  completeOutage: "全部离线 🟥"
+  partialOutage: "部分离线 🟧"
