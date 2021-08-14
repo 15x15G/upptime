@@ -11,7 +11,7 @@ sites:
     icon: https://ffcafe.org/images/logos/334.png
   - name: universalis
     url: https://universalis.app/
-
+    icon: https://universalis.app/favicon.png
 
   # - name: Test Broken Site
   #   url: https://thissitedoesnotexist.koj.co
@@ -31,6 +31,8 @@ status-website:
       href: /upptime
     - title: GitHub
       href: https://github.com/15x15G/upptime
+    - title: Home
+      href: /
   robotsText: "User-agent: * \n Disallow: /"
   
 # Upptime also supports notifications, assigning issues, and more
