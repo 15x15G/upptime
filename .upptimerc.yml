@@ -6,12 +6,15 @@ sites:
   - name: ffcafe
     url: https://ffcafe.org
     icon: https://ffcafe.org/images/logos/334.png
+    maxResponseTime: 5000
   - name: cafeapi
     url: https://cafemenu.lv5.one
     icon: https://ffcafe.org/images/logos/334.png
+    maxResponseTime: 5000
   - name: universalis
     url: https://universalis.app/
     icon: https://universalis.app/favicon.png
+    maxResponseTime: 5000
 
   # - name: Test Broken Site
   #   url: https://thissitedoesnotexist.koj.co
