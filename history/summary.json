@@ -24,19 +24,19 @@
     "url": "https://cafemenu.lv5.one",
     "icon": "https://ffcafe.org/images/logos/334.png",
     "slug": "cafeapi",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 385,
+    "status": "up",
+    "uptime": "99.90%",
+    "uptimeDay": "93.79%",
+    "uptimeWeek": "99.11%",
+    "uptimeMonth": "99.80%",
+    "uptimeYear": "99.90%",
+    "time": 382,
     "timeDay": 217,
-    "timeWeek": 599,
-    "timeMonth": 449,
-    "timeYear": 385,
+    "timeWeek": 551,
+    "timeMonth": 442,
+    "timeYear": 382,
     "dailyMinutesDown": {
-      "2021-10-09": 0
+      "2021-10-09": 89
     }
   },
   {
