@@ -24,7 +24,7 @@
     "url": "https://cafemenu.lv5.one",
     "icon": "https://ffcafe.org/images/logos/334.png",
     "slug": "cafeapi",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -35,7 +35,9 @@
     "timeWeek": 599,
     "timeMonth": 449,
     "timeYear": 385,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2021-10-09": 0
+    }
   },
   {
     "name": "universalis",
@@ -43,11 +45,11 @@
     "icon": "https://universalis.app/favicon.png",
     "slug": "universalis",
     "status": "up",
-    "uptime": "99.49%",
+    "uptime": "99.50%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.90%",
-    "uptimeYear": "99.49%",
+    "uptimeYear": "99.50%",
     "time": 817,
     "timeDay": 301,
     "timeWeek": 304,
