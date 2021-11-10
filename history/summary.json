@@ -25,7 +25,7 @@
     "url": "https://cafemenu.lv5.one",
     "icon": "https://ffcafe.org/images/logos/334.png",
     "slug": "cafeapi",
-    "status": "up",
+    "status": "down",
     "uptime": "99.93%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -37,6 +37,7 @@
     "timeMonth": 471,
     "timeYear": 410,
     "dailyMinutesDown": {
+      "2021-11-10": 0,
       "2021-10-09": 89
     }
   },
