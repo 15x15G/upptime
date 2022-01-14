@@ -4,7 +4,7 @@
     "url": "https://ffcafe.org",
     "icon": "https://ffcafe.org/images/logos/334.png",
     "slug": "ffcafe",
-    "status": "up",
+    "status": "down",
     "uptime": "99.95%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -16,6 +16,7 @@
     "timeMonth": 832,
     "timeYear": 814,
     "dailyMinutesDown": {
+      "2022-01-14": 0,
       "2021-10-15": 38,
       "2021-08-09": 78
     }
