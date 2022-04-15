@@ -12,7 +12,7 @@ sites:
     icon: https://ffcafe.org/images/logos/334.png
     maxResponseTime: 5000
   - name: universalis
-    url: https://universalis.app/
+    url: https://universalis.app/api/tax-rates?world=161
     icon: https://universalis.app/favicon.png
     maxResponseTime: 5000
 
