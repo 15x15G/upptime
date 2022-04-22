@@ -15,7 +15,12 @@ sites:
     url: https://universalis.app/api/tax-rates?world=1175
     icon: https://universalis.app/favicon.png
     maxResponseTime: 5000
-
+  - name: 笔窝
+    url: https://bot.pencilss.top/
+    maxResponseTime: 5000
+  - name: 獭窝
+    url: https://xn--v9x.net/
+    maxResponseTime: 5000
   # - name: Test Broken Site
   #   url: https://thissitedoesnotexist.koj.co
 
